@@ -7,7 +7,6 @@
 body,
 input,
 section,
-button,
 textarea {
 	font-family: 'Poppins', sans-serif;
 }
@@ -201,5 +200,36 @@ fieldset legend {
 
 footer {
 	background: #f0f0f4;
+
 	height: 136px;
+
+	display: flex;
+	flex-direction: column;
+
+	padding: 40px 64px;
+
+	margin-bottom: 100px;
+	border-top: 1px solid #d6d6d6;
+	border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+	height: 56px;
+	background: #04d361;
+	border: 0;
+	border-radius: 8px;
+	font-family: 'Archivo';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+}
+
+footer .button:hover{
+	background: #08a04c;
+
+}
+
+input:invalid {
+	border: 2px solid red;
 }
